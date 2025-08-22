@@ -1,6 +1,6 @@
 Projeto Streaming - Banco de Dados
 
- Objetivo:
+ Objetivo
  
 Este repositório é dedicado ao desenvolvimento e versionamento do banco de dados para o Projeto de Streaming. Aqui documentamos todas as alterações da estrutura do banco separadamente, e após conclusão, este será integrado ao projeto principal.
 
@@ -9,7 +9,7 @@ Este repositório é dedicado ao desenvolvimento e versionamento do banco de dad
 - Git Bash - Terminal para versionamento e controle de alterações
 - SQL - Linguagem de consulta estruturada
 
- 🤝 Contribuições:
+ 🤝 Contribuições
  
 Este é um projeto open source! Sinta-se à vontade para contribuir:
 
