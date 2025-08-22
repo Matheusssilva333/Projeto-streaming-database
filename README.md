@@ -8,7 +8,7 @@ Este repositório é dedicado ao desenvolvimento e versionamento do banco de dad
 - Git Bash - Terminal para versionamento e controle de alterações
 - SQL - Linguagem de consulta estruturada
 
-  🤝 Contribuições
+ 🤝 Contribuições
 Este é um projeto open source! Sinta-se à vontade para contribuir:
 
 Faça um fork do projeto
