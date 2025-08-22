@@ -1,1 +1,1 @@
-CREATE DATABASE Cadastro_e_login
+CREATE DATABASE Cadastro_e_login;
