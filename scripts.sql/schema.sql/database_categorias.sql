@@ -1,5 +1,6 @@
 CREATE DATABASE Categorias;
 
+SELECT * GROUP BY 
 CREATE TABLE filmes (
     id SERIAL PRIMARY KEY,
     Vingadores_Era_de_ultron VARCHAR(255) NOT NULL,
