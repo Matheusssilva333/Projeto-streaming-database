@@ -1,11 +1,18 @@
+
 CREATE DATABASE Categorias;
 
-SELECT * GROUP BY 
+
 CREATE TABLE filmes (
     id SERIAL PRIMARY KEY,
-    Vingadores_Era_de_ultron VARCHAR(255) NOT NULL,
-    Ação VARCHAR(50)
+    titulo VARCHAR(255) NOT NULL,
+    genero VARCHAR(50),
+    url_trailer VARCHAR(255)
 );
 
-ALTER TABLE filmes
-ADD COLUMN "https://www.youtube.com/embed/Tg8hx9JKEZs?si=HRuGYwgyh0-cqUAn" VARCHAR(255);
+
+INSERT INTO filmes (titulo, genero, url_trailer)
+VALUES ('Vingadores: Era de Ultron', 'Ação', 'https://www.youtube.com/embed/Tg8hx9JKEZs?si=HRuGYwgyh0-cqUAn');
+
+SELECT genero, COUNT(*) AS quantidade
+FROM filmes
+GROUP BY genero;
